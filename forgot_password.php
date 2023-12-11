@@ -94,11 +94,7 @@ use PHPMailer\PHPMailer\Exception;
                     $mail->Host       = 'smtp.gmail.com';                 
                     $mail->SMTPAuth   = true;                             
                     $mail->Username   = 'cleearr.canillas@lsu.edu.ph';           
-<<<<<<< HEAD
                     $mail->Password   = 'Tajmahal123456789012!!!!!!!!!!!!';                  
-=======
-                    $mail->Password   = '';                  
->>>>>>> 2b7c302bfafec7c94edf8762195f0a55cc947445
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;                            
                     $mail->Port       = 587;                              
 
