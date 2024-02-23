@@ -99,7 +99,7 @@ use PHPMailer\PHPMailer\Exception;
                     $mail->Port       = 587;                              
 
                     //Recipients
-                    $mail->setFrom('cleearr.canillas@lsu.edu.ph', 'Mailer');
+                    $mail->setFrom('', 'Admin');
                     $mail->addAddress($email);     
 
                     //Content
